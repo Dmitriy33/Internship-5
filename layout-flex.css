@@ -1,0 +1,41 @@
+body
+{
+  flex: 1 100%;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  flex-flow: row wrap;
+}
+header
+{
+  flex: 1 100%;
+  background-color: grey;
+}
+main
+{
+  background-color: green;
+  display: flex;
+  flex: 1 80%;
+  flex-flow: column wrap;
+}
+article
+{
+    background-color: blue;
+    margin: 10px 10px;
+    height: 100px;
+}
+nav
+{
+  flex: 1 100%;
+  background: pink;
+}
+aside
+{
+  flex: 1 20%;
+  background: aqua;
+}
+footer
+{
+  flex: 1 100%;
+  background: orange;
+}
