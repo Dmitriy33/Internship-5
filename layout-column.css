@@ -1,0 +1,45 @@
+html
+{
+  margin: 0;
+}
+body
+{
+  color: #fff;
+  text-align: center;
+  columns: 2;
+}
+header
+{
+  column-span: all;
+  padding: 10px;
+  background-color: grey;
+}
+main
+{
+  height: 300px;
+  padding: 10px;
+  break-before: column;
+  break-after: column;
+  background-color: green;
+}
+nav
+{
+  column-span: all;
+  padding: 10px;
+  background: pink;
+}
+article
+{
+  height: 100px;
+  background: blue;
+}
+aside
+{
+  padding: 10px;
+  background: aqua;
+}
+footer
+{
+  column-span: all;
+  background: orange;
+}
